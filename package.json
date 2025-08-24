@@ -1,23 +1,15 @@
 {
-    "name": "stunning-fiesta",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
+    "name": "fcc-learn-npm-package-json",
+    "dependencies": {
+        "express": "^4.14.0",
+        "@freecodecamp/example": "1.2.13"
+    },
+    "main": "server.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "start": "node server.js"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/minalan79/stunning-fiesta.git"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/minalan79/stunning-fiesta/issues"
-    },
-    "homepage": "https://github.com/minalan79/stunning-fiesta#readme",
-    "dependencies": {
-        "@freecodecamp/example": "1.2.13"
+        "url": "https://github.com/freeCodeCamp/boilerplate-npm.git"
     }
 }
